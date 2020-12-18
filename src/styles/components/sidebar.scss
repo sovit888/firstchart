@@ -1,0 +1,65 @@
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  left: 0%;
+  background-color: black;
+  .content {
+    padding: 10px 10px;
+    .sidebar-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 10px;
+      border-bottom: 1px solid white;
+      .MuiAvatar-root {
+        height: 60px;
+        width: 60px;
+        cursor: pointer;
+        border: 2px solid transparent;
+        &:hover {
+          border: 2px solid wheat;
+        }
+      }
+      h2 {
+        color: white;
+        font-size: 16px;
+        padding: 7px 0px;
+        cursor: pointer;
+      }
+      p {
+        cursor: pointer;
+        font-size: 14px;
+        color: white;
+        font-weight: bold;
+      }
+    }
+    .sidebar-body {
+      .navbar {
+        padding: 10px 0px;
+        .navlist {
+          list-style: none;
+          a {
+            color: white;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: 0.2s;
+            p {
+              padding-left: 10px;
+              font-weight: bold;
+              font-family: sans-serif;
+            }
+            &:hover {
+              background-color: lightgray;
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+}

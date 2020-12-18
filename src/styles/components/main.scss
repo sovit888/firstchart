@@ -1,0 +1,21 @@
+.main {
+  margin-left: 200px;
+  .main-top {
+    height: 50px;
+    background-color: #2c3335;
+    border-left: 1px solid white;
+    display: flex;
+    align-items: center;
+    .MuiSvgIcon-root {
+      color: azure;
+      padding-left: 7px;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+  .main-body {
+    padding: 10px;
+  }
+}

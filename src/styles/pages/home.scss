@@ -1,0 +1,55 @@
+.home {
+  .content {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .lists {
+      padding: 20px 0px;
+      position: relative;
+      flex-basis: 24%;
+      margin: 8px 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 0px 5px lightgray;
+      .MuiSvgIcon-root {
+        position: absolute;
+        top: 10%;
+        right: 2%;
+        opacity: 0.9;
+        cursor: pointer;
+      }
+      h2 {
+        padding: 10px 0px;
+        font-weight: 400;
+      }
+      p {
+        font-weight: 500;
+        font-size: 3rem;
+      }
+    }
+  }
+  .bar {
+    .bars {
+      width: 60%;
+    }
+  }
+  .buttons {
+    .row {
+      margin: 2px 0px;
+      button {
+        width: 200px;
+        padding: 5px 20px;
+        outline: none;
+        border-radius: 10px;
+        border: 1px solid transparent;
+        background-color: blue;
+        cursor: pointer;
+        color: white;
+        margin-right: 20px;
+      }
+    }
+  }
+}
